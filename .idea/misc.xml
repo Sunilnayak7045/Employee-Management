@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/drawable/button_shape.xml" value="0.2638888888888889" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/drawable/registerbtn.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/drawable/registerbtncolor.xml" value="0.2638888888888889" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/drawable/updatebtncolor.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/displaydata.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/forgotpassu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/forgotpassv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/register.xml" value="0.264" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/testing.xml" value="0.264" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/update.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/layout/viewalldata.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/menu/nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/menu/profilenav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sunil/AndroidStudioProjects/sql/app/src/main/res/menu/updatenav.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

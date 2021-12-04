@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background_image_one_signup" />
+
+    <EditText
+        android:id="@+id/forgeteditTextTextEmailAddress"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="80sp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgetloginnamebtn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageView
+        android:id="@+id/emailicon"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/forgeteditTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/forgeteditTextTextEmailAddress"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/forgeteditTextTextEmailAddress"
+        app:layout_constraintTop_toTopOf="@+id/forgeteditTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/email_removebg" />
+
+    <Button
+        android:id="@+id/forgetloginbutton"
+        android:layout_width="103dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_shape"
+        android:text="Verify"
+
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgeteditTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <EditText
+        android:id="@+id/forgetloginnamebtn"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="284dp"
+        android:hint="Name"
+        android:paddingStart="80sp"
+        android:paddingTop="15dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/forgeteditTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/forgetloginnamebtn"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/forgetloginnamebtn"
+        app:layout_constraintTop_toTopOf="@+id/forgetloginnamebtn"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/name_removebg" />
+
+
+</android.support.constraint.ConstraintLayout>

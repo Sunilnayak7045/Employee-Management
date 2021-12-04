@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background_image_one_signup" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="80sp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginnamebtn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="1dp"
+
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="80sp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="154dp"
+        android:layout_height="47dp"
+        android:buttonTint="#142867"
+        android:text="Remember Me"
+        android:textColor="#142867"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <ImageView
+        android:id="@+id/emailicon"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/email_removebg" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="55dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/password_removebg" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="103dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_shape"
+        android:text="Login"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="103dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button_shape"
+        android:text="Register"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toEndOf="@+id/loginbutton"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <EditText
+        android:id="@+id/loginnamebtn"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="216dp"
+        android:hint="Name"
+        android:paddingStart="80sp"
+        android:paddingTop="15dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/loginnamebtn"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/loginnamebtn"
+        app:layout_constraintTop_toTopOf="@+id/loginnamebtn"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/name_removebg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="143dp"
+        android:layout_height="46dp"
+        android:text="Forget password"
+        android:paddingTop="9sp"
+        android:textColor="#142867"
+        android:paddingStart="5sp"
+
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/registerbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.574" />
+
+
+</android.support.constraint.ConstraintLayout>
