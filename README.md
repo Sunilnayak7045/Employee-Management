@@ -1,5 +1,5 @@
 # Employee-Management
-This is an Employee Management System made using Kotlin and SQLite
+This is an Employee Management System application made using Kotlin and SQLite
 
 ![img1](https://user-images.githubusercontent.com/47368515/144707113-63871caa-9271-4ff1-87a3-49bcad2fa95c.jpg)
 ![img2](https://user-images.githubusercontent.com/47368515/144707120-56f92eea-498f-400c-9706-3d2a26d74f52.jpg)
