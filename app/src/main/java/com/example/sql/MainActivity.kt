@@ -9,7 +9,8 @@ import android.support.v7.app.AlertDialog
 import android.widget.Toast
 import kotlinx.android.synthetic.main.register.*
 
-//testtttt
+//testtttt  sq
+//testtttt  sq 2
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
