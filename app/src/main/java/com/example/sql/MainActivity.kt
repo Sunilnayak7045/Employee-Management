@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         //master test
 
+        //xyz
+        //commit 2
+
         var helper= Myhelper(applicationContext)
         var db:SQLiteDatabase = helper.writableDatabase
         var rs=db.rawQuery("SELECT * FROM credentialdb",null)
