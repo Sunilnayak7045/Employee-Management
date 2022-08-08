@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.register)
 
+        //master test
+
         var helper= Myhelper(applicationContext)
         var db:SQLiteDatabase = helper.writableDatabase
         var rs=db.rawQuery("SELECT * FROM credentialdb",null)
