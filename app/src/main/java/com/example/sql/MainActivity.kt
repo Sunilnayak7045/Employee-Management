@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.register)
 
+        //git tag testing on test3
         //master test
 
         var helper= Myhelper(applicationContext)
